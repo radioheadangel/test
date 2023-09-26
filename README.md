@@ -2,6 +2,12 @@
 Я, сегодня завтра и вчера
 ## Создание репозитория
 
+```
+git config --global user.name "имя пользователя"
+git config --global user.mail "email"
+```
+регистрация
+
 ``` 
 git init
 ```
@@ -11,6 +17,12 @@ git init
 git add .
 ```
 добавление файлов 
+
+```
+git commit -m "первый коммит"
+```
+добавить коммит
+
 
 ```
 git branch -M main
@@ -36,3 +48,9 @@ git remote -v
 git merge
 ```
 Слияние
+
+```
+.git ignore
+```
+игнорирование
+
